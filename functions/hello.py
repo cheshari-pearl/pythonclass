@@ -12,13 +12,13 @@ def greet(*names):
         print (f"Hello {name}")
 
 
-def create_sentence(**words):
-    print(words)
-    sentence = " "
-    for word in words.values():
-        sentence += word
-        sentence += " "
-    return sentence    
+# def create_sentence(**words):
+#     print(words)
+#     sentence = " "
+#     for word in words.values():s
+#         sentence += word
+#         sentence += " "
+#     return sentence    
 
 
 def sum_and_greet(*args, **kwargs):
